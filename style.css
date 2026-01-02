@@ -1,4 +1,4 @@
-/* ================= BASE ================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -18,7 +18,6 @@ body {
   margin: auto;
 }
 
-/* ================= NAV ================= */
 .nav {
   padding: 24px 0;
   animation: fadeDown 0.8s ease;
@@ -55,7 +54,6 @@ nav a:hover::after {
   width: 100%;
 }
 
-/* ================= BUTTONS ================= */
 .btn-primary {
   background: linear-gradient(135deg,#6366f1,#8b5cf6);
   border: none;
@@ -96,7 +94,6 @@ nav a:hover::after {
   background: #eef2ff;
 }
 
-/* ================= HERO ================= */
 .hero {
   position: relative;
   padding: 110px 0;
@@ -135,7 +132,6 @@ nav a:hover::after {
   color: #475569;
 }
 
-/* ================= BLOBS (FLOATING) ================= */
 .blob {
   position: absolute;
   width: 420px;
@@ -158,7 +154,6 @@ nav a:hover::after {
   animation-delay: 3s;
 }
 
-/* ================= DASHBOARD ================= */
 .dashboard {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -190,7 +185,6 @@ nav a:hover::after {
   animation: drawLine 2s ease forwards;
 }
 
-/* ================= FEATURES ================= */
 .features {
   padding: 110px 0;
 }
@@ -221,7 +215,6 @@ nav a:hover::after {
   box-shadow: 0 35px 70px rgba(99,102,241,.25);
 }
 
-/* ================= CTA ================= */
 .cta {
   padding: 120px 0;
 }
@@ -234,14 +227,12 @@ nav a:hover::after {
   animation: fadeUp 1s ease;
 }
 
-/* ================= FOOTER ================= */
 .footer {
   padding: 30px 0;
   text-align: center;
   color: #64748b;
 }
 
-/* ================= ANIMATIONS ================= */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(40px); }
   to { opacity: 1; transform: translateY(0); }
@@ -265,7 +256,6 @@ nav a:hover::after {
   to { stroke-dashoffset: 0; }
 }
 
-/* ================= RESPONSIVE ================= */
 @media (max-width: 900px) {
   .hero-grid,
   .feature-grid {
